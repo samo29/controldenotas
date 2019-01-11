@@ -1,0 +1,16 @@
+{
+    "require": {
+        "twbs/bootstrap": "^4.2",
+        "symfony/dotenv": "^4.2",
+        "components/jquery": "^3.3",
+        "datatables/datatables": "^1.10",
+        "fortawesome/font-awesome": "^4.7",
+        "zendframework/zend-form": "^2.14"
+    },
+    "autoload": {
+    	"psr-4":{
+    		"Core\\": "core/",
+    		"App\\": "app/"
+    	}
+    }
+}
